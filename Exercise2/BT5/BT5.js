@@ -1,0 +1,7 @@
+let arr = prompt('Nhập vào chuỗi ký tự').split('');
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === "-") {
+        arr.splice(i, 1, '_')
+    }
+}
+console.log('Mảng mới: ', arr);
